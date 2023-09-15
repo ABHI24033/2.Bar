@@ -1,0 +1,154 @@
+@media screen and (max-width: 600px) {
+    /* … */
+    .header{
+       width: 100vw;
+    }
+    .header>header>nav>ul{
+        display: none;
+    }
+    nav>h2{
+        font-size: 1.5rem;
+    }
+    nav>i{
+        color: white;
+        font-size: 1.5rem;
+    }
+    .frontLook>h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    .BaseLine{
+        display: block;
+        text-align: center;
+    }
+    .BaseLine>h2,.BaseLine>p{
+        margin-bottom: 2rem;
+    }
+    .BaseLine>p{
+        font-size: 1.5rem;
+    }
+    /* ===============About============== */
+    .about{
+        height: 120vh;
+    }
+    .about>div{
+        display: block;
+        width: 100%;
+    }
+    .leftContent{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .leftContent>h1{
+        font-size: 2rem;
+        margin-top: 20px;
+        padding-bottom: 1rem;
+    }
+    .rightContent{
+        width: 95%;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 50vh;
+    }
+    /* ======= Artist========*/
+    .Artists{
+        display: block;
+    }
+    #prateekKuhad{
+        width: 95%;
+        padding: 10px;
+        border-radius: 1px ;
+    }
+    .rightside{
+        width: 95%;
+        margin: 10px;
+    }
+    /* ========Event======== */
+    
+    .scheduals{
+        overflow-x: scroll;
+        overflow-y: hidden;
+        display: block;
+    }
+    .scheduals>table{
+        width: 75rem;
+    }
+
+    /*  ===========Plans==========*/
+    .plans{
+        height: 130vh;
+    }
+    .plans>div{
+        display: block;
+    }
+    .plans>div>div{
+        width: 95%;
+        height: 50%;
+        margin: 10px;
+        padding-left: 2rem;
+    }
+    /* =========contact=========== */
+    .form{
+        width: 95%;
+    }
+    .form>form>button{
+        width: 9rem;
+    }
+    /* ==========footer======== */
+    .orangedDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .orangedDiv>h1{
+        margin-left: 1px;
+        font-size: 2rem;
+    }
+    .orangedDiv>div{
+        margin-right: 0rem;
+        width: 75%;
+    }
+    .orangedDiv>div>a>i{
+        margin-left: 10px;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .middleDiv{
+        display: block;
+        height: 60vh;
+    }
+    .links{
+        margin-left: 10px;
+        width: 95%;
+        margin-bottom: 0;
+    }
+    .links>div{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .middleDiv>div>h3{
+        margin-bottom: 0.5rem;
+    }
+    .question{
+        width: 100%;
+        margin-left: 0.4rem;
+    }
+    .location{
+        width: 95%;
+        margin-left: 0.4rem;
+    }
+    .copyright{
+        display: block;
+    }
+    .copyright>div{
+        display: block;
+        padding-top: 20px;
+        height: auto;
+        margin-left: 1.2rem;
+    }
+
+  }
