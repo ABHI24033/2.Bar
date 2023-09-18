@@ -23,7 +23,9 @@
             <p><i class="fa-solid fa-user"></i>Welcome to Music Festival 2023</p>
             <nav>
                 <h2>Festava Live</h2>
-                <ul>
+                <div id="ul" class="ul">
+                    
+                <ul >
                     <a href="#">
                         <li>Home</li>
                     </a>
@@ -44,7 +46,10 @@
                     </a>
                 </ul>
                 <button>Buy Ticket</button>
-                <i class="fa-solid fa-bars" id="bars"></i>
+                <i class="fa-solid fa-xmark" id="xbar" onclick="crossClick()"></i>
+            </div>
+                <i class="fa-solid fa-bars" id="bars" onclick="barClick()"></i>
+                <!-- <i class="fa-solid fa-xmark" id="xbar"></i> -->
             </nav>
             <div class="frontLook">
                 <p>FESTAVA LIVE PRESENTS</p>
@@ -354,7 +359,7 @@
     </footer>
     <!-- =====================Footer End--=================== -->
 
-
+<script src="./script.js"></script>
 </body>
 
 </html>

@@ -1,17 +1,77 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     /* … */
     .header{
        width: 100vw;
     }
-    .header>header>nav>ul{
+    /* .header>header>nav>ul{
         display: none;
-    }
+    } */
     nav>h2{
         font-size: 1.5rem;
     }
-    nav>i{
+    #bars{
+        display: block;
         color: white;
         font-size: 1.5rem;
+        cursor: pointer;
+    }
+    #bars:hover .ul{
+        /* display: block; */
+        right: 0;
+    }
+    #ul:hover #bar{
+        /* right: 40rem; */
+        display: none;
+    }
+    #ul{
+        /* display: flex; */
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        background-color: brown;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 0%;
+        right: -40rem;
+        /* right: 0; */
+        z-index: 1;
+        opacity: 0.95;
+        transition: all 2s;
+    }
+    #ul>h2{
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+    }
+    #ul>ul{
+        flex-direction: column;
+    }
+    #ul>button{
+        margin-top: 2rem;
+    }
+    #ul>button:hover{
+        border: 1px solid red;
+        background-color: rgb(63, 3, 3);
+    }
+    #xbar{
+        display: block;
+        position: absolute;
+        top: 1rem;
+        color: white;
+        font-size: 2rem;
+        font-weight: 600;
+        right: 1rem;
+         cursor: pointer;
+         z-index: 2;
+    }
+    #x:hover nav>div{
+        right: -40rem;
+        /* display: none; */
+        /* right: -40rem; */
+        background-color: black;
+       
     }
     .frontLook>h1{
         font-size: 3.5rem;
@@ -151,4 +211,13 @@
         margin-left: 1.2rem;
     }
 
+  }
+
+  @media (min-width:600px)and (max-width:1000px){
+    header>nav>div>ul{
+        gap: 15px;
+    }
+    nav>div>button{
+
+    }
   }
